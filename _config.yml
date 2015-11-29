@@ -5,10 +5,15 @@ pygments: true
 paginate: 8
 permalink: /:title
 
-title: PeterJiao's :-)
+title: Peter Jiao's Blog
 url: http://peterjiao.github.io
 feed: /atom.xml
 author_info: Peter Jiao
 name: Peter Jiao
 email: jiao34367@163.com
 github: peterjiao
+
+comments: 
+ provider: duoshuo
+ duoshuo: 
+ shortname: PJ
