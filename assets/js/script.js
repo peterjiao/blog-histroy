@@ -73,7 +73,6 @@ $('#js-fullscreen').on('click', function() {
                                 position:'static'
                                 ,top:0
                                 ,left:0
-                                ,display: 'none'
                             });
                             
     
@@ -90,7 +89,7 @@ $('#js-fullscreen').on('click', function() {
                                 ,top:'20px'
                                 ,left:$('#pjax').width()+$('#pjax').offset().left+30
                       });
-                      $('#post__toc').show();
+                      
                       $(this).dequeue();
   
     });
