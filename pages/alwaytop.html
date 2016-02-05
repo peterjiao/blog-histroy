@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="<a href="http://www.w3.org/1999/xhtml">" target="_blank">http://www.w3.org/1999/xhtml"></a>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>顶部随网页滚动</title>
+<script type="text/javascript" src="./jquery-1.11.1.min.js"></script>
+<style type="text/css">
+*{ padding:0px; margin:0px;}
+#top{ width:90%; height:30px; background-color:#9F3; float:left;}
+</style>
+</head>
+ 
+<body>
+<div style="background-color:blue;"></div>
+{% include header.html %}
+<div style="width:200px; height:100px;"></div>
+<div id="top"> </div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><input class="btn" type="button" value="提交" /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><input class="btn" type="button" value="提交" />
+ 
+ 
+<script type="text/javascript">
+ 
+window.onscroll = function(){
+    var ht = document.documentElement.scrollTop || document.body.scrollTop; 
+    console.log("ht"+ht);
+    if(ht>100){
+      $("#top").css({"position":"fixed","top":"0px","margin":"auto"});
+     }else{$("#top").css({"position":"static"});}
+    }
+</script>
+</body>
+</html>
