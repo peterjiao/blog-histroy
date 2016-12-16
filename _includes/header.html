@@ -16,6 +16,7 @@
                 </li>
 
                 {% for my_page in site.pages %}
+			{{my_page.title}}
                     {% if my_page.title %}
                     <li>
                         {% if my_page.url == page.url %}
