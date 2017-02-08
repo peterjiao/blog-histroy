@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "集合"
-date:   2016-12-11 17:06:05
-categories: back-end 
-tags: Back-end Java Collection 
+date:   2016-08-11 22:16:05
+categories: 集合 
+tags: 集合 
 ---
 
 * content
 {:toc}
 
->学习Git的使用。
+>Java集合框架的使用。
 
 
 

@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Spring的XML配置"
-date:   2016-12-02 17:06:05
-categories: back-end 
-tags: Back-end Java Spring 
+date:   2016-09-02 22:00:09
+categories: 框架和包 
+tags: Spring 
 ---
 
 * content
