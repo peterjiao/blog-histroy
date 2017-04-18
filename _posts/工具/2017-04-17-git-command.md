@@ -37,7 +37,7 @@ $ git branch -r
 
 
 
-### 增
+## 增
 
 ### clone远程非主分支
 
@@ -55,7 +55,7 @@ $ git branch -r
 
 
 
-### 改
+## 改
 
 ### 重命名本地分支
 
@@ -76,16 +76,11 @@ git push --delete origin feature-renames
 git branch -m feature-renames feature-rename
 #推
 git push origin feature-rename
-
 ```
 
 
 
-
-
-
-
-### 删
+## 删
 
 ### 删除本地分支
 
