@@ -7,3 +7,13 @@
 
 
 
+## idea 
+
+CamelCase 
+String Manipulation 
+
+Alibaba Java Coding Guidelines
+fw
+idea vim
+lombok 
+-- scroll from source
